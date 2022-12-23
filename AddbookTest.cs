@@ -12,6 +12,7 @@ using OpenQA.Selenium.Support.UI;
 using OpenQA.Selenium.Interactions;
 using NUnit.Framework;
 [TestFixture]
+// This TC add a book 
 public class AddbookTest {
   private IWebDriver driver;
   public IDictionary<string, object> vars {get; private set;}
